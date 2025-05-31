@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="stylespf.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    crossorigin="anonymous" />
+    <script src="pf.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="title">My Portfolio</div>
+    <nav class="navbar">
+      <a href="#Home">Home</a>
+      <a href="#about">About</a>
+      <a href="#programming-languages"> Programming Languages</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Contact">Contact</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <i class="fa fa-bars"></i>
+    </div>
+  </header>
+
+  <section id="Home" class="main">
+    <div>
+      <h1>Welcome to My Portfolio</h1>
+      <p>I'm a passionate developer creating amazing web experiences.</p>
+      <a href="Ashutosh_CV.pdf" download="" class="btn">Download Resume</a>
+    </div>
+  </section>
+
+  <section id="about" class="about-me">
+    <h1>About Me</h1>
+    <div>
+      <figure>
+        <img src="project_img/myimg.jpg" alt="Ashutosh Pal photo" />
+      </figure>
+      <h2>Hello! I'm Ashutosh , a <span class="myself"></span></h2>
+      <p>
+        Passionate about bridging technology and user needs,
+        I am a web developer with a passion for creating
+        beautiful and functional websites. I specialize in front-end
+        development and love working with modern technologies.
+      </p>
+    </div>
+  </section>
+
+  <section id="programming-languages" class="languages-section">
+    <h2>Programming Languages</h2>
+    <div class="skills">
+      <div class="skill">
+        <p>HTML</p>
+        <div class="progress-bar" data-progress="90"></div>
+    </div>
+    <div class="skill">
+        <p>CSS</p>
+        <div class="progress-bar" data-progress="80"></div>
+    </div>
+    <div class="skill">
+        <p>JavaScript</p>
+        <div class="progress-bar" data-progress="50"></div>
+    </div>
+    <div class="skill">
+        <p>Jquery</p>
+        <div class="progress-bar" data-progress="60"></div>
+    </div>
+    <div class="skill">
+        <p>Bootstrap</p>
+        <div class="progress-bar" data-progress="80"></div>
+    </div>
+    <div class="skill">
+        <p>MySql</p>
+        <div class="progress-bar" data-progress="70"></div>
+    </div>
+    </div>
+  </section>
+
+  <section id="Projects" class="product-section">
+    <h1>Projects</h1>
+    <div class="cards">
+      <div class="card">
+        <figure><img src="project_img/img_changer.png" alt="Project 1" /></figure>
+        <article>
+          <h3>Image_Changer</h3>
+          <p>languages</p>
+          <h4>HTML</h4>
+          <h4>CSS</h4>
+          <h4>JavaScript</h4>
+        </article>
+         <a href="image_changer.html" class="card-btn">Know More</a>
+      </div>
+      <div class="card">
+        <figure><img src="project_img/todolist.png" alt="Project 2" /></figure>
+        <article>
+          <h3>ToDo List</h3>
+          <p>languages</p>
+          <h4>HTML</h4>
+          <h4>CSS</h4>
+          <h4>JavaScript</h4>
+        </article>
+        <a href="todo.html" class="card-btn">Know More</a>
+      </div>  
+      <div class="card">
+        <figure><img src="project_img/tributewebsite.png" alt="tribute website" /></figure>
+        <article>
+          <h3>Tribute Website</h3>
+           <p>languages</p>
+          <h4>HTML</h4>
+          <h4>CSS</h4>
+        </article>
+        <a href="tribute.html" class="card-btn">Know More</a>
+      </div>
+    </div>
+  </section> 
+
+  <section id="Contact" class="contact-form">
+    <div>
+
+      <span>Contact Me</span>
+      <form action="#">
+        <input type="text" placeholder="Your Name" minlength="2" maxlength="22" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>&copy;2025 My Portfolio. All rights reserved</span><br />
+    <a href="https://github.com/PalAshutosh"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/ashutosh-pal-bb2268302"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/_http_ashutosh?"><i class="fa-brands fa-instagram"></i></a>
+  </footer>
+</body>
+
+</html>
